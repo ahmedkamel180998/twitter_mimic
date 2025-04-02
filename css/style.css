@@ -41,7 +41,8 @@
   font-weight: 600;
 }
 
-.main-nav-button {
+.main-nav-button,
+.new-feed-button {
   background-color: #1d9bf0;
   width: 90%;
   height: 55px;
@@ -55,7 +56,8 @@
   transition: 0.2sec;
 }
 
-.main-nav-button:hover {
+.main-nav-button:hover,
+.new-feed-button:hover {
   background-color: #1d9cf0cc;
 }
 
@@ -75,7 +77,8 @@
   background-color: #2f3336;
 }
 
-.main-account a .profile-image {
+.main-account a .profile-image,
+.main-feed .profile-image {
   width: 38px;
   height: 38px;
   border-radius: 50%;
@@ -99,4 +102,88 @@
 
 .main-account-container a:nth-child(3) i {
   font-size: 2rem;
+}
+
+/* Main Section */
+.main-section {
+  width: 71%;
+  height: 100%;
+  margin-left: 29%;
+}
+
+.main-feed,
+.side-feed {
+  width: 50%;
+}
+
+.main-feed {
+  border-left: 1px solid #71767b;
+  border-right: 1px solid #71767b;
+}
+
+.home-bar {
+  justify-content: space-between;
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0 15px;
+  position: static;
+  top: 0;
+}
+
+.new-tweet {
+  align-items: flex-start;
+  width: 100%;
+  height: 120px;
+  padding: 4px 16px;
+}
+
+.new-tweet .profile-image {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.new-tweet-details {
+  justify-content: space-evenly;
+  padding-top: 4px;
+  width: 100%;
+  margin-left: 12px;
+}
+
+.new-tweet-details .new-feed-input {
+  width: 100%;
+  height: 24px;
+  background-color: #000;
+  font-size: 2rem;
+  border: none;
+  color: #fff;
+  outline: none;
+}
+
+.new-tweet-actions {
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+}
+
+.new-tweet-actions .new-tweet-links {
+  list-style: none;
+}
+
+.new-tweet-actions .new-tweet-links li {
+  margin-right: 12px;
+  color: #1c88d2;
+  cursor: pointer;
+}
+
+.new-tweet-actions .new-feed-button {
+  width: 75px;
+  height: 35px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
