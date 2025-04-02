@@ -1,0 +1,47 @@
+@media screen and (max-width: 1200px) {
+  .header-section {
+    width: 10%;
+    padding: 10px;
+  }
+
+  .main-section {
+    margin-left: 10%;
+  }
+
+  .main-nav span {
+    display: none;
+  }
+
+  .main-nav-button {
+    width: 55px;
+    border-radius: 99px;
+    font-size: 1.4rem;
+  }
+
+  .main-account {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-account i {
+    display: none;
+  }
+
+  .main-account .account-details {
+    display: none;
+  }
+
+  .main-nav-link {
+    align-items: center;
+    padding: 8px;
+  }
+
+  .main-nav-link a i {
+    margin-right: 0;
+  }
+
+  .main-nav-link a,
+  .main-account a {
+    padding: 10px;
+  }
+}
